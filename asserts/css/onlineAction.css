@@ -74,6 +74,10 @@ main h2 {
     .application-item p {
         font-size: 15px;
     }
+
+    .application-item{
+        flex:1;
+    }
 }
 
 @media (max-width: 480px) {

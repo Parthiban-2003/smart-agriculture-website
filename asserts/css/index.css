@@ -201,6 +201,10 @@
     .market {
         width: 100%;
     }
+
+    .market button {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 480px) {

@@ -1,3 +1,10 @@
+const hamburger = document.getElementById("hamburger");
+const navMenu = document.getElementById("nav-manu");
+
+hamburger.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+});
+
 document.getElementById('current-year').textContent = new Date().getFullYear();
 
 document.addEventListener('DOMContentLoaded', function() {
